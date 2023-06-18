@@ -1,0 +1,34 @@
+#First Import selenium webdriver 
+
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+serv_obj=Service()
+
+#from webdriver we neeed to acess the Chrome() class
+#create object for Chrome class
+driver=webdriver.Chrome(service=serv_obj)
+
+#To open the browser
+driver.get("URL")
+
+#To find element by name and enter the values
+driver.find_element_by_name().send_keys()
+
+driver.find_element(By.NAME,"Value").send_keys()
+
+#To find the elemnt by id and enter paswword
+driver.find_element_by_id().send_keys()
+
+driver.find_element(By.ID,"Value").send_keys()
+
+#Click the button
+driver.find_element_by_id("btn").click()
+
+driver.find_element(By.ID,"Value").click()
+
+#Capture Title of the page
+driver.title
+
+
+
+
