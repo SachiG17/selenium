@@ -11,6 +11,9 @@ driver=webdriver.Chrome(service=serv_obj)
 #To open the browser
 driver.get("URL")
 
+#To maximize window
+driver.maximize()
+
 #To find element by name and enter the values
 driver.find_element_by_name().send_keys()
 
