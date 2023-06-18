@@ -1,0 +1,19 @@
+Locators
+
+built-in
+1.id
+2.name
+3.linkedtext
+4.className
+4.TagName
+
+Customized Locators
+1.CSS Selector
+Tag and Id
+Tag and Class
+Tag and attribute
+
+2.Xpath
+Relative Xpath
+Absolute Xpath
+
